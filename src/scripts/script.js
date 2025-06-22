@@ -20,10 +20,10 @@ let Vitorias = 0
 let Vidas = 6
 let Dicas = 1
 
-const audioPerdeu = new Audio('/src/audios/SomDerrota.mp3')
-const audioAcerto = new Audio('/src/audios/SomAcerto.wav')
-const audioErrou = new Audio('/src/audios/SomIncorreto.wav')
-const audioGanhou = new Audio('/src/audios/SomVitoria.wav')
+const audioPerdeu = new Audio('/JogoDaForca/src/audios/SomDerrota.mp3')
+const audioAcerto = new Audio('/JogoDaForca/src/audios/SomAcerto.wav')
+const audioErrou = new Audio('/JogoDaForca/src/audios/SomIncorreto.wav')
+const audioGanhou = new Audio('/JogoDaForca/src/audios/SomVitoria.wav')
 
 
 //Escolher a palavra com a dica
