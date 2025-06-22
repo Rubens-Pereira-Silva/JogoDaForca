@@ -234,6 +234,7 @@ function ResetarJogo(){
     criarTeclado();
     palavraDicaNoJogo();
     tiraDialog();
+    init();
 }
 
 //Dialog - Modal
