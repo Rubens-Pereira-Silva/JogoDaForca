@@ -184,7 +184,7 @@ function verificarLetra(){
 function imagemForca(){
     if(Vidas >= 0){
         imagem = document.getElementsByClassName("forcaImg")
-        Array.from(imagem).forEach((img) => img.src = `./imagens/Forca/forca${Vidas}.jpeg`)
+        Array.from(imagem).forEach((img) => img.src = `/JogoDaForca/src/imagens/Forca/forca${Vidas}.jpeg`)
     }   
 }
 //ganhou
