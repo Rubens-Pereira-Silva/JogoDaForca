@@ -192,6 +192,7 @@ function GanhouJogo(){
     audioGanhou.play()
     Vitorias++
     window.localStorage.setItem("vitorias", Vitorias)
+    document.getElementById("vitorias").innerHTML = `Vitorias:${Vitorias}`
     criarDialog("ganhou");
     abrirFecharDialog();
     document.getElementsByClassName("Jogo")[0].style.display = "none"
