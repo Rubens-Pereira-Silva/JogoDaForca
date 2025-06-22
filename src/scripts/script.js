@@ -234,7 +234,7 @@ function ResetarJogo(){
     criarTeclado();
     palavraDicaNoJogo();
     tiraDialog();
-    init();
+    document.getElementById("vitorias").innerHTML = `Vitorias:${Vitorias}`
 }
 
 //Dialog - Modal
