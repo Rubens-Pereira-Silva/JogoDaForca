@@ -234,6 +234,7 @@ function ResetarJogo(){
     criarTeclado();
     palavraDicaNoJogo();
     tiraDialog();
+    Vitorias = window.localStorage.getItem("vitorias")
     document.getElementById("vitorias").innerHTML = `Vitorias:${Vitorias}`
 }
 
